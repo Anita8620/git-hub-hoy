@@ -135,3 +135,9 @@ footer{
 
 }
 
+section main{
+    font-size: medium;
+    color: gray;
+    padding-top: 40px;
+    margin-left: 30px;
+}
