@@ -1,0 +1,57 @@
+header {
+  background-color: white;
+  margin: 0px 30px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 15%;
+}
+header nav {
+  margin-right: 30px;
+}
+header nav ul {
+  list-style-type: none;
+  color: black;
+  display: flex;
+  gap: 15px;
+}
+
+/* estilos de main */
+main {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 25%);
+  gap: 30px;
+  margin: 30px 20px;
+  align-content: center;
+}
+main img {
+  margin: 10px;
+  padding: 20px;
+  width: 60%;
+  background-color: #e7ebda;
+  text-align: center;
+}
+main .img-uno .img-tres {
+  display: none;
+}
+main div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* estilos del footer*/
+footer {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
